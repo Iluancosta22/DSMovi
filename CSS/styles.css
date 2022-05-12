@@ -2,4 +2,25 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #e8e8e8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #4D41C0;
+    color: #fff;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
 }
